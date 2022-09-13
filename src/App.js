@@ -2,88 +2,174 @@
 
 import "./App.css";
 import React from "react";
-import ProImg from "./assests/pro_img.JPG";
-import { Home, Mail, Briefcase } from "react-feather";
-import { Linkedin, Facebook, Instagram } from "react-bootstrap-icons";
-import TerminalBlock from "./components/TerminalBlock";
+import {
+	Facebook,
+	Linkedin,
+	Instagram,
+	Discord,
+	CaretDownFill,
+	FileEarmarkPerson,
+} from "react-bootstrap-icons";
+import Typewriter from "typewriter-effect";
+import Anime, { anime } from "react-anime";
 
 export default function App() {
 	return (
-		<div className="w-100vw h-screen bg-[#151515] relative">
-			<div className="bg-[#e63946] h-full w-1/2 absolute animate-slide">
-				<div className="absolute left-20 top-1/3">
-					<h1 className="text-[#151515] w-1/2 text-[3rem] leading-none font-[kontanter]">
-						Hi!
-					</h1>
-					<h1 className="text-[#151515] w-1/2 text-[3rem] leading-none font-[kontanter]">
-						I'm a
-					</h1>
-					<h1 className="text-[#f1faee] w-1/2 text-[7rem] leading-none font-[kontanter] drop-shadow-[-10px_10px_0_#222] my-6">
-						Fullstack Developer
-					</h1>
-					<h1 className="text-[#151515] flex text-[3rem] leading-none font-[kontanter]">
-						based in India
-						<div>
-							<div className="h-[5px] w-8 bg-[#fb923c]"></div>
-							<div className="h-[5px] w-8 bg-[#f1faee]"></div>
-							<div className="h-[5px] w-8 bg-[#4d7c0f]"></div>
-						</div>
-					</h1>
-				</div>
-			</div>
-
-			{/* <div className="flex justify-center items-center flex-col w-100vw h-screen">
-				<h1 className="text-[#f1faee] text-4xl font-medium">Hi! I'm</h1>
-				<h1 className="text-[#f1faee] text-8xl font-[kontanter]">
-					PUSHKAR JADHAV
-				</h1>
-				<h4 className="text-[#FFF] text-2xl font-light">
-					Fullstack Developer at{" "}
-					<a href="" className="text-[#FFF]">
-						Cybage Software Pvt. Ltd
-					</a>
-					, a Freelancer and a Blogger.
+		<section className="p-10">
+			{/* <div className="top-0 left-0 absolute bg-[#f1faee] w-36 animate-slide h-screen"></div>
+			<div className="top-0 left-0 absolute bg-[#1d3557] w-32 animate-slideTwo h-screen"></div>
+			<div className="top-0 left-0 absolute bg-[#e63946] w-28 animate-slideThree h-screen"></div> */}
+			<div className="flex flex-col items-center justify-center h-screen relative">
+				<h4 className="font-[kontanter] text-2xl text-[#777]">
+					Hi! I'M <span className="text-[#f1faee] text-4xl mx-1">PUSHKAR</span>,
+					A
 				</h4>
-			</div> */}
+				<h1 className="font-[kontanter] text-7xl text-[#f1faee] mt-8">
+					{/* <Typewriter
+						onInit={(typewriter) => {
+							typewriter
+								.typeString("FULLSTACK DEVELOPER")
+								.pauseFor(1500)
+								.deleteAll()
+								.typeString("PYTHON DEVELOPER")
+								.pauseFor(1500)
+								.deleteAll()
+								.typeString("BLOGGER")
+								.pauseFor(1500)
+								.start();
+						}}
+						options={{ loop: true }}
+					/> */}
+					FULLSTACK DEVELOPER
+				</h1>
+				<h1 className="font-[kontanter] text-6xl text-[#f1faee] my-2">
+					PYTHON DEVELOPER
+				</h1>
+				<h1 className="font-[kontanter] text-5xl text-[#f1faee] mb-8">
+					BLOGGER
+				</h1>
+				<h4 className="font-[kontanter] text-2xl text-[#777]">
+					BASED IN <span className="text-[#f77f00]">IN</span>
+					<span className="text-[#f1faee]">D</span>
+					<span className="text-[#38b000]">IA</span>
+				</h4>
 
-			<div className="absolute right-20 bottom-20 flex gap-8 flex-col items-center">
-				<div className="h-28 border-l border-[#f1faee]"></div>
-				<a href="">
-					<Linkedin
-						size={18}
-						color="#f1faee"
-						className="transition duration-300 ease-in-out hover:opacity-60"
-					/>
-				</a>
-				<a href="">
-					<Facebook
-						size={18}
-						color="#f1faee"
-						className="transition duration-300 ease-in-out hover:opacity-60"
-					/>
-				</a>
-				<a href="">
-					<Instagram
-						size={18}
-						color="#f1faee"
-						className="transition duration-300 ease-in-out hover:opacity-60"
-					/>
-				</a>
-			</div>
+				<div className="bottom-28 absolute">
+					<Anime
+						translateY={15}
+						duration={1000}
+						direction={"alternate"}
+						loop={true}
+						easing={"easeInOutQuad"}
+					>
+						<a href="">
+							<CaretDownFill size={18} color="#f77f00" />
+						</a>{" "}
+					</Anime>
+				</div>
 
-			<div className="flex justify-center">
-				<div className="border-2 shadow-md h-12 w-72 fixed bottom-5 rounded-full bg-[#f1faee] p-2 flex items-center justify-around z-20">
-					<a href="">
-						<Home size={22} />
+				{/* <div className="absolute right-64 bottom-36 w-1/4">
+					<h1 className="font-[poppins] text-5xl text-[#f1faee] font-semibold my-3">
+						Pushkar Jadhav
+					</h1>
+					<h4 className="text-[#f1faee]">
+						<em>
+							"a Programmer by Profession, a Hacker by Choice, and a Blogger by
+							Interest."
+						</em>
+					</h4>
+				</div> */}
+
+				<div className="absolute top-1/4 -left-10 -rotate-90">
+					<h4
+						className="font-['Share_Tech_Mono'] text-1xl text-[#f1faee]"
+						title="Total Views"
+					>
+						<a href="tel:+91 88055 66621">+91 88055 66621</a>
+					</h4>
+				</div>
+
+				<div className="absolute bottom-1/3 -left-20 -rotate-90">
+					<h4
+						className="font-['Share_Tech_Mono'] text-1xl text-[#f1faee]"
+						title="Total Views"
+					>
+						<a href="mailto:pushkar.jadhao@gmail.com">
+							pushkar@thefortyseven.dev
+						</a>
+					</h4>
+				</div>
+
+				<div className="absolute right-5 top-10 rotate-90">
+					<h4
+						className="font-['Share_Tech_Mono'] text-1xl text-[#f1faee]"
+						title="Total Views"
+					>
+						105320
+					</h4>
+				</div>
+
+				<div className="absolute right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
+					<div className="border h-24 w-0"></div>
+					<a
+						href=""
+						className="transition duration-300 ease-in-out hover:opacity-60"
+					>
+						<Linkedin size={18} color="#f1faee" />
 					</a>
-					<a href="">
-						<Briefcase size={22} />
+					<a
+						href=""
+						className="transition duration-300 ease-in-out hover:opacity-60"
+					>
+						<Instagram size={18} color="#f1faee" />
 					</a>
-					<a href="">
-						<Mail size={22} />
+					<a
+						href=""
+						className="transition duration-300 ease-in-out hover:opacity-60"
+					>
+						<Discord size={18} color="#f1faee" />
+					</a>
+					<a
+						href=""
+						className="transition duration-300 ease-in-out hover:opacity-60"
+					>
+						<Facebook size={18} color="#f1faee" />
 					</a>
 				</div>
 			</div>
-		</div>
+			<div className="flex items-center justify-between">
+				<div className="w-1/3">
+					<h1 className="text-[#f1faee] font-[kontanter] text-6xl ">ABOUT</h1>
+					<p className="text-[#f1faee] font-extralight font-[poppins]">
+						Here's a gist, I'm a Programmer, a Blogger and an Ethical Hacker by
+						profession. As a graduate, I hold a Bachelors Degree in Computer
+						Science and Engineering from Savitribai Phule Pune University
+						(formerly University of Pune). Currently working in Cybage Software
+						PVT. LTD, a leading IT services company which mainly delivers
+						outsourced software product development.
+					</p>
+					<p className="text-[#f1faee]">
+						I'm living a corporate life for more than five years and have a
+						total working experience of a minimum of eight years. Being a
+						freelancer, I've worked on several projects throughout years which
+						includes Web Development, Graphics Designing, Android Development
+						along with Android ROM Development as well.
+					</p>
+					<p className="text-[#f1faee]">
+						Recently, I've developed several Windows Applications with the help
+						of Python, Responsive and Interactive Websites with Django and
+						ReactJS.
+					</p>
+					<p className="text-[#f1faee]">
+						I believe in qualitative work rather than quantitative and believe
+						that my skills will support your brand and/or you to succeed in your
+						business and objectives.
+					</p>
+					<p className="text-[#f1faee]">
+						Feel free to get in <a href="#contact">touch</a>.
+					</p>
+				</div>
+			</div>
+		</section>
 	);
 }
