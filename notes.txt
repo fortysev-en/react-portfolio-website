@@ -1,0 +1,65 @@
+<div className="h-screen w-full">
+					<div className="relative flex justify-center items-center w-[290px] h-full flex-col draw">
+						<div className="w-full py-1 line">
+							<div className="h-2 w-2 rounded-full absolute"></div>
+							<div
+								data-x="170"
+								className="h-2 w-2 rounded-full bg-[#FFF] el"
+							></div>
+						</div>
+						<div className="w-full py-1 line">
+							<div className="h-2 w-2 rounded-full absolute"></div>
+							<div
+								data-x="80"
+								className="h-2 w-2 rounded-full bg-[#FFF] el"
+							></div>
+						</div>
+						<div className="w-full py-1 line">
+							<div className="h-2 w-2 rounded-full absolute"></div>
+							<div
+								data-x="270"
+								className="h-2 w-2 rounded-full bg-[#FFF] el"
+							></div>
+						</div>
+						<div className="w-full py-1 line">
+							<div className="h-2 w-2 rounded-full absolute"></div>
+							<div
+								data-x="370"
+								className="h-2 w-2 rounded-full bg-[#FFF] el"
+							></div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+        anime({
+			targets: ".draw .el",
+			translateX: function (el) {
+				return el.getAttribute("data-x");
+			},
+			translateY: function (el, i) {
+				return 50 + -50 * i;
+			},
+			scale: function (el, i, l) {
+				return l - i + 5;
+			},
+			rotate: function () {
+				return anime.random(-360, 360);
+			},
+			borderRadius: function () {
+				return ["50%", "35%"];
+			},
+			duration: function () {
+				return anime.random(1200, 1800);
+			},
+			delay: function () {
+				return anime.random(2000, 400);
+			},
+			direction: "alternate",
+			loop: true,
+			endDelay: 2000,
+		});
