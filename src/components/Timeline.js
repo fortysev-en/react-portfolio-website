@@ -37,7 +37,7 @@ const Timeline = () => {
 			</div>
 			<div className="flex justify-between flex-col w-[70%]">
 				{/* article start*/}
-				<div className="flex items-center gap-20 border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
+				<div className="flex items-center gap-40 border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
 					<div className="absolute bg-primaryBg border-[#06d6a0] border-4 rounded-full w-14 h-14 flex items-center justify-center -top-[10px] -left-[30px]">
 						<h4 className="text-primaryTxt">9</h4>
 					</div>
@@ -81,7 +81,7 @@ const Timeline = () => {
 				{/* article end */}
 
 				{/* article start*/}
-				<div className="flex gap-20 items-center border-r-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
+				<div className="flex gap-40 items-center justify-end border-r-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
 					<div className="w-[400px]">
 						<img src={timelineOne} alt="Timeline Img" />
 					</div>
@@ -124,7 +124,7 @@ const Timeline = () => {
 				</div>
 				{/* article end */}
 				{/* article start*/}
-				<div className="flex gap-20 items-center border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
+				<div className="flex gap-40 items-center border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
 					<div className="absolute border-t-4 border-l-4 rounded-tl-3xl w-[100px] h-[100px] -left-[4px] -top-[4px] border-[#06d6a0]"></div>
 					<div className="absolute bg-primaryBg border-[#06d6a0] border-4 top-[10%] rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
 						<h4 className="text-primaryTxt">5</h4>

@@ -152,7 +152,7 @@ const Skills = () => {
 					translateX={anime.stagger(-220)}
 					loop={true}
 					duration={2000}
-					delay={1600}
+					delay={1500}
 					endDelay={4100}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -161,14 +161,14 @@ const Skills = () => {
 						name=""
 						value="0%"
 						duration={anime.random(2000, 3000)}
-						delay={1600}
+						delay={1500}
 						endDelay={4100}
 					></SkillItem>
 					<SkillItem
 						name="DJANGO"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1600}
+						delay={1500}
 						endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128" fill="#f1faee">
@@ -181,7 +181,7 @@ const Skills = () => {
 						name="POSTGRESQL"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1600}
+						delay={1500}
 						endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
@@ -207,7 +207,7 @@ const Skills = () => {
 					translateX={[-215, anime.stagger(220)]}
 					loop={true}
 					duration={2000}
-					delay={1600}
+					delay={1500}
 					endDelay={4100}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -216,7 +216,7 @@ const Skills = () => {
 						name="NODE.JS"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1600}
+						delay={1500}
 						endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
@@ -231,7 +231,7 @@ const Skills = () => {
 						name="PYTHON"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1600}
+						delay={1500}
 						endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
@@ -299,7 +299,7 @@ const Skills = () => {
 					translateX={anime.stagger(-220)}
 					loop={true}
 					duration={2000}
-					delay={1700}
+					delay={1500}
 					endDelay={4200}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -308,15 +308,15 @@ const Skills = () => {
 						name=""
 						value="0%"
 						duration={anime.random(2000, 3000)}
-						delay={1700}
-						endDelay={5200}
+						delay={1500}
+						endDelay={4200}
 					></SkillItem>
 					<SkillItem
 						name="ADOBE Xd"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1700}
-						endDelay={5200}
+						delay={1500}
+						endDelay={4200}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -339,7 +339,7 @@ const Skills = () => {
 					translateX={[-215, anime.stagger(220)]}
 					loop={true}
 					duration={2000}
-					delay={1700}
+					delay={1500}
 					endDelay={4200}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -348,8 +348,8 @@ const Skills = () => {
 						name="FIGMA"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1700}
-						endDelay={5200}
+						delay={1500}
+						endDelay={4200}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -382,7 +382,7 @@ const Skills = () => {
 					translateX={anime.stagger(-220)}
 					loop={true}
 					duration={2000}
-					delay={1800}
+					delay={1500}
 					endDelay={4300}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -391,15 +391,15 @@ const Skills = () => {
 						name=""
 						value="0%"
 						duration={anime.random(2000, 3000)}
-						delay={1800}
-						endDelay={5800}
+						delay={1500}
+						endDelay={4300}
 					></SkillItem>
 					<SkillItem
 						name="AWS"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1800}
-						endDelay={5800}
+						delay={1500}
+						endDelay={4300}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -422,7 +422,7 @@ const Skills = () => {
 					translateX={[-215, anime.stagger(220)]}
 					loop={true}
 					duration={2000}
-					delay={1800}
+					delay={1500}
 					endDelay={4300}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
@@ -431,8 +431,8 @@ const Skills = () => {
 						name="GOOGLE CLOUD"
 						value="80%"
 						duration={anime.random(2000, 3000)}
-						delay={1800}
-						endDelay={5800}
+						delay={1500}
+						endDelay={4300}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
