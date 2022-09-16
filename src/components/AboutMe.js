@@ -98,7 +98,7 @@ const AboutMe = () => {
 					Let's Talk
 				</a>
 			</div>
-			<div className="w-[550px]">
+			<div className="w-[500px]">
 				<img src={aboutme} alt="About Pushkar" />
 			</div>
 		</div>
