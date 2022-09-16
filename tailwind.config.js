@@ -6,6 +6,15 @@
  module.exports = {
 		content: ["./src/**/*.{js,jsx,ts,tsx}"],
 		theme: {
+			colors: {
+				primaryBg: "#1e2023",
+				secondaryBg: "#141517",
+
+				primaryTxt: "#ffffff",
+				// secondaryTxt: "#18191c",
+				secondaryTxt: "#f1faee",
+				secondaryTxt100: "#565656",
+			},
 			extend: {
 				keyframes: {
 					slide: {

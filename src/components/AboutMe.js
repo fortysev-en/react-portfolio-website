@@ -29,7 +29,7 @@ const AboutMe = () => {
 							direction={"alternate"}
 							delay={300}
 						>
-							<Award color="#2dc653" size={42} />
+							<Award color="#06d6a0" size={42} />
 						</Anime>
 						<h3 className="text-[#9ca3af]">5+ Years</h3>
 					</div>
@@ -47,7 +47,7 @@ const AboutMe = () => {
 							direction={"alternate"}
 							delay={300}
 						>
-							<Folder color="#2dc653" size={42} />
+							<Folder color="#06d6a0" size={42} />
 						</Anime>
 						<h3 className="text-[#9ca3af]">20+ Active</h3>
 					</div>
@@ -63,7 +63,7 @@ const AboutMe = () => {
 							direction={"alternate"}
 							delay={300}
 						>
-							<Users color="#2dc653" size={42} />
+							<Users color="#06d6a0" size={42} />
 						</Anime>
 						<h3 className="text-[#9ca3af]">100+ Active</h3>
 					</div>

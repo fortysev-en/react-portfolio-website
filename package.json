@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.8",
-    "devicon-react-svg": "^0.2.3",
     "postcss": "^8.4.16",
     "react": "^18.2.0",
     "react-anime": "^4.1.1",
