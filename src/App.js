@@ -7,6 +7,8 @@ import Anime, { anime } from "react-anime";
 import StickyNav from "./components/helpers/StickyNav";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Timeline from "./components/Timeline";
 
 export default function App() {
 	useEffect(() => {
@@ -18,6 +20,8 @@ export default function App() {
 			<StickyNav />
 			<Home />
 			<AboutMe />
+			<Skills />
+			<Timeline />
 		</section>
 	);
 }
