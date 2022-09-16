@@ -12,7 +12,8 @@
     }
 
     body {
-        background-color:#252423;
+        /* background-color:#252423; */
+        background-color:#1e2023;
     }
     
     ::-webkit-scrollbar {
@@ -28,5 +29,13 @@
         border-radius: 4px;
         height: 80px;
         background-color: #f1faee;
+    }
+
+    .fixedNav svg {
+        transition: all 0.2s ease-in-out;
+    }
+
+    .fixedNav a:hover > svg {
+        stroke: #1d3557;
     }
   }
