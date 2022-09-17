@@ -32,16 +32,16 @@ const Skills = () => {
 					<SkillItem
 						name=""
 						value="0%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 					></SkillItem>
 					<SkillItem
 						name="BOOTSTRAP"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -54,9 +54,9 @@ const Skills = () => {
 					<SkillItem
 						name="TAILWIND CSS"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -69,9 +69,9 @@ const Skills = () => {
 					<SkillItem
 						name="HTML-CSS"
 						value="90%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -102,9 +102,9 @@ const Skills = () => {
 					<SkillItem
 						name="REACT.JS"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<g fill="#61DAFB">
@@ -117,9 +117,9 @@ const Skills = () => {
 					<SkillItem
 						name="JAVASCRIPT"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -132,9 +132,9 @@ const Skills = () => {
 					<SkillItem
 						name="REDUX"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4000}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4000}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path fill="none" d="M0 0h128v128H0z"></path>
@@ -153,23 +153,23 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4100}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name=""
 						value="0%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4100}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4100}
 					></SkillItem>
 					<SkillItem
 						name="DJANGO"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4100}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128" fill="#f1faee">
 								<path d="M59.448 0h20.93v96.88c-10.737 2.04-18.62 2.855-27.181 2.855-25.551-.001-38.87-11.551-38.87-33.705 0-21.338 14.135-35.2 36.015-35.2 3.398 0 5.98.272 9.106 1.087zm0 48.765c-2.446-.815-4.485-1.086-7.067-1.086-10.6 0-16.717 6.523-16.717 17.939 0 11.145 5.845 17.26 16.582 17.26 2.309 0 4.212-.136 7.202-.542z"></path>
@@ -180,9 +180,9 @@ const Skills = () => {
 					<SkillItem
 						name="POSTGRESQL"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4100}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -208,16 +208,16 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4100}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name="NODE.JS"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4100}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -230,9 +230,9 @@ const Skills = () => {
 					<SkillItem
 						name="PYTHON"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4100}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4100}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<linearGradient
@@ -300,23 +300,23 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4200}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name=""
 						value="0%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4200}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4200}
 					></SkillItem>
 					<SkillItem
 						name="ADOBE Xd"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4200}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4200}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -340,16 +340,16 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4200}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name="FIGMA"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4200}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4200}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -383,23 +383,23 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4300}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name=""
 						value="0%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4300}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4300}
 					></SkillItem>
 					<SkillItem
 						name="AWS"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4300}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4300}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path
@@ -423,16 +423,16 @@ const Skills = () => {
 					loop={true}
 					duration={2000}
 					delay={1500}
-					endDelay={4300}
+					endDelay={4000}
 					easing={"spring(1, 80, 10, 0)"}
 					direction={"alternate"}
 				>
 					<SkillItem
 						name="GOOGLE CLOUD"
 						value="80%"
-						duration={anime.random(2000, 3000)}
-						delay={1500}
-						endDelay={4300}
+						//duration={anime.random(2000, 3000)}
+						// delay={1500}
+						// endDelay={4300}
 						icon={
 							<svg viewBox="0 0 128 128">
 								<path

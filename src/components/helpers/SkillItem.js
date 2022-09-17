@@ -13,10 +13,12 @@ const SkillItem = (props) => {
 					<Anime
 						keyframes={[{ width: "0%" }, { width: props.value }]}
 						easing={"spring(1, 80, 10, 0)"}
-						duration={props.duration}
-						delay={props.delay}
-						endDelay={props.endDelay + 6000}
-						loop={true}
+						duration={2000}
+						delay={1500}
+						// endDelay={4000}
+						// delay={props.delay}
+						// endDelay={props.endDelay + 6000}
+						// loop={true}
 					>
 						<div className="bg-[#06d6a0] h-1 rounded-full"></div>
 					</Anime>
