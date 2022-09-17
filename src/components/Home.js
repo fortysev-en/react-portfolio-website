@@ -2,6 +2,8 @@
 
 import React from "react";
 import { Facebook, Linkedin, Instagram, Discord } from "react-bootstrap-icons";
+import TerminalBlock from "../components/helpers/TerminalBlock";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
 	return (
@@ -9,6 +11,25 @@ const Home = () => {
 			id="home"
 			className="flex flex-col items-center justify-center h-screen relative w-full"
 		>
+			<TerminalBlock
+				width="325px"
+				height="110px"
+				data={
+					<Typewriter
+						onInit={(typewriter) => {
+							typewriter
+								.typeString("> const newInstance = new Portfolio();<br>")
+								.pauseFor(1500)
+								.typeString("> console.log(newInstance.name);<br>")
+								.pauseFor(1500)
+								.pasteString("> Pushkar Jadhav")
+								.start();
+						}}
+					/>
+				}
+				x={500}
+				y={-300}
+			/>
 			<h4 className="font-[kontanter] text-2xl text-[#777]">
 				Hi! I'M <span className="text-primaryTxt text-4xl mx-1">PUSHKAR</span>,
 				A
