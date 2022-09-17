@@ -6,14 +6,11 @@ import { Maximize2 } from "react-feather";
 
 const TerminalBlock = (props) => {
 	return (
-		<h1 className="text-[#f1faee] text-6xl font-bold">
+		<h1 className="absolute">
 			<Draggable defaultPosition={{ x: props.x, y: props.y }}>
-				<div
-					className="bg-[#282828] rounded-xl select-none shadow-[-25px_25px_0px_#00000030]"
-					style={{ width: props.width, height: props.height }}
-				>
-					<div className="flex justify-between items-center px-2 bg-[#444444] h-5 rounded-t-xl	">
-						<div className="flex gap-1">
+				<div className="top-10 right-20 w-[350px] h-[130px] bg-secondaryBg rounded-2xl">
+					<div className="absolute bg-[#343a40] h-6 w-full rounded-t-2xl flex justify-between items-center px-4">
+						<div className="flex gap-1 items-center h-full">
 							<div className="h-2 w-2 rounded-full bg-[#DA1B1B]"></div>
 							<div className="h-2 w-2 rounded-full bg-[#FFC700]"></div>
 							<div className="h-2 w-2 rounded-full bg-[#00DFAA]"></div>
@@ -22,7 +19,11 @@ const TerminalBlock = (props) => {
 							<Maximize2 size={10} color="#FFF" />
 						</div>
 					</div>
-					<h6 className="w-80 ml-3 font-normal text-sm mt-5">{props.data}</h6>
+					<div className="absolute top-8 h-full w-full p-2">
+						<div className="text-[#fff] px-2 opacity-70 font-['Share_Tech_Mono'] text-[14px] leading-6">
+							{props.data}
+						</div>
+					</div>
 				</div>
 			</Draggable>
 		</h1>
