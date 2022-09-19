@@ -10,7 +10,7 @@ const Timeline = () => {
 	return (
 		<div
 			id="timeline"
-			className="relative flex flex-col items-center w-full py-5"
+			className="relative flex flex-col items-center w-full py-5 mt-[2.5in]"
 		>
 			<h1 className="text-primaryTxt font-[kontanter] text-7xl text-center mb-20">
 				TIMELINE

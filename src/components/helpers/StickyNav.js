@@ -21,16 +21,16 @@ const StickyNav = () => {
 				<Settings color="#f1faee" size={22} />
 			</a>
 			<a
-				href="#timeline"
-				className="p-2 rounded-xl transition duration-300 ease-in-out hover:bg-[#f1faee]"
-			>
-				<Calendar color="#f1faee" size={22} />
-			</a>
-			<a
 				href="#portfolio"
 				className="p-2 rounded-xl transition duration-300 ease-in-out hover:bg-[#f1faee]"
 			>
 				<Briefcase color="#f1faee" size={22} />
+			</a>
+			<a
+				href="#timeline"
+				className="p-2 rounded-xl transition duration-300 ease-in-out hover:bg-[#f1faee]"
+			>
+				<Calendar color="#f1faee" size={22} />
 			</a>
 			<a
 				href="#contact"
