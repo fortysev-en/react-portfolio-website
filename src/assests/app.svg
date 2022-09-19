@@ -1,0 +1,22 @@
+<svg width="223" height="407" viewBox="0 0 223 407" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3.5" y="0.5" width="216" height="406" rx="19.5" stroke="white"/>
+<rect x="10.5" y="7.99731" width="202" height="389.934" rx="19.5" stroke="#999999"/>
+<path d="M11 28H212V46H11V28Z" fill="#666666"/>
+<rect x="28" y="80" width="43" height="10" fill="#999999"/>
+<rect x="28" y="97" width="148" height="10" fill="#555555"/>
+<rect x="28" y="114" width="130" height="10" fill="#666666"/>
+<rect x="28" y="131" width="163" height="10" fill="#444444"/>
+<rect x="28" y="148" width="72" height="10" fill="#999999"/>
+<rect x="28" y="165" width="123" height="10" fill="#888888"/>
+<rect x="28" y="182" width="99" height="10" fill="#777777"/>
+<rect x="28" y="199" width="62" height="10" fill="#999999"/>
+<rect x="28" y="216" width="43" height="10" fill="#555555"/>
+<rect x="30" y="233" width="10" height="10" fill="#555555"/>
+<rect x="47" y="233" width="10" height="10" fill="#555555"/>
+<rect x="64" y="233" width="10" height="10" fill="#555555"/>
+<rect x="81" y="233" width="10" height="10" fill="#555555"/>
+<line x1="1.5" y1="90" x2="1.5" y2="155" stroke="white" stroke-width="3"/>
+<line x1="1.5" y1="163" x2="1.5" y2="190" stroke="white" stroke-width="3"/>
+<line x1="221.5" y1="317" x2="221.5" y2="344" stroke="white" stroke-width="3"/>
+<rect x="61" y="349" width="97" height="20" rx="10" fill="#999999"/>
+</svg>

@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
+import Portfolio from "./components/Portfolio";
 
 export default function App() {
 	useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
 			<Home />
 			<AboutMe />
 			<Skills />
+			<Portfolio />
 			<Timeline />
 		</section>
 	);
