@@ -17,7 +17,7 @@ const PortfolioItem = (props) => {
 			onMouseEnter={() => setHover(true)}
 			onMouseLeave={() => setHover(false)}
 		>
-			<div className="flex flex-col gap-1 items-center">
+			<div className="flex flex-col gap-1 items-center text-center">
 				<h1 className="text-primaryTxt">{props.heading}</h1>
 				<h3 className="text-primaryTxt text-sm opacity-60 font-extralight">
 					{props.heading2}
