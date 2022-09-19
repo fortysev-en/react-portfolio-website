@@ -74,7 +74,7 @@ const Timeline = () => {
 						</div>
 					</div>
 					<div className="w-[100px] h-[100px] bg-primaryBg absolute -right-[50px] -bottom-[50px]"></div>
-					<div className="w-[400px]">
+					<div className="w-[500px]">
 						<img src={timelineTwo} alt="Timeline Img" />
 					</div>
 				</div>
@@ -82,7 +82,7 @@ const Timeline = () => {
 
 				{/* article start*/}
 				<div className="flex gap-40 items-center justify-end border-r-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
-					<div className="w-[400px]">
+					<div className="w-[500px]">
 						<img src={timelineOne} alt="Timeline Img" />
 					</div>
 					<div className="absolute border-t-4 border-r-4 rounded-tr-3xl w-[100px] h-[100px] -right-[4px] -top-[4px] border-[#06d6a0]"></div>
@@ -177,7 +177,7 @@ const Timeline = () => {
 						</div>
 					</div>
 					<div className="w-[100px] h-[100px] bg-primaryBg absolute -right-[50px] -bottom-[50px]"></div>
-					<div className="w-[400px]">
+					<div className="w-[500px]">
 						<img src={timelineThree} alt="Timeline Img" />
 					</div>
 				</div>
