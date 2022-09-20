@@ -50,6 +50,7 @@
 					poppins: ["Poppins", "sans-serif"],
 					kontanter: ["Kontanter", "sans-serif"],
 					Share_Tech_Mono: ['"Share Tech Mono"', "sans-serif"],
+					anurati: ["Anurati", "sans-serif"],
 				},
 			},
 		},

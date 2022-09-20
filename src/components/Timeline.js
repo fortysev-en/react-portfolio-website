@@ -12,8 +12,8 @@ const Timeline = () => {
 			id="timeline"
 			className="relative flex flex-col items-center w-full py-5 mt-[2.5in]"
 		>
-			<h1 className="text-primaryTxt font-[kontanter] text-7xl text-center mb-20">
-				TIMELINE
+			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
+				Timeline
 			</h1>
 			<div className="flex gap-5 absolute right-20 top-40">
 				<div className="flex items-center gap-2">

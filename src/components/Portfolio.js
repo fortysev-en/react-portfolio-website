@@ -7,8 +7,8 @@ import PortfolioItem from "./helpers/PortfolioItem";
 const Portfolio = () => {
 	return (
 		<div id="portfolio" className="flex flex-col w-full h-screen py-5">
-			<h1 className="text-primaryTxt font-[kontanter] text-7xl text-center mb-20">
-				PORTFOLIO
+			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
+				Portfolio
 			</h1>
 			<div className="flex justify-center items-center flex-wrap">
 				<Anime

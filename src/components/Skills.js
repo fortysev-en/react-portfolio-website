@@ -16,8 +16,8 @@ const Skills = () => {
 			id="skills"
 			className="flex flex-col items-center mt-[2.5in] h-screen py-5"
 		>
-			<h1 className="text-primaryTxt font-[kontanter] text-7xl text-center mb-20">
-				SKILLS
+			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
+				Skills
 			</h1>
 			<div className="w-full flex justify-center">
 				<Anime
