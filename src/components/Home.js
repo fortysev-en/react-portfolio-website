@@ -1,15 +1,23 @@
 /** @format */
 
 import React from "react";
-import { Facebook, Linkedin, Instagram, Discord } from "react-bootstrap-icons";
+import {
+	Facebook,
+	Linkedin,
+	Instagram,
+	Discord,
+	CaretDownFill,
+} from "react-bootstrap-icons";
 import TerminalBlock from "../components/helpers/TerminalBlock";
 import Typewriter from "typewriter-effect";
+import ProImg from "../assests/DSC_021.png";
+import Anime from "react-anime";
 
 const Home = () => {
 	return (
 		<div
 			id="home"
-			className="flex flex-col items-center justify-center h-screen relative w-full"
+			className="flex flex-col items-center h-screen relative w-full"
 		>
 			<TerminalBlock
 				width="325px"
@@ -28,9 +36,9 @@ const Home = () => {
 					/>
 				}
 				x={500}
-				y={-300}
+				y={120}
 			/>
-			<h4 className="font-[kontanter] text-2xl text-[#777]">
+			{/* <h4 className="font-[kontanter] text-2xl text-[#777]">
 				Hi! I'M <span className="text-primaryTxt text-4xl mx-1">PUSHKAR</span>,
 				A
 			</h4>
@@ -41,33 +49,56 @@ const Home = () => {
 				BASED IN <span className="text-[#f77f00]">IN</span>
 				<span className="text-primaryTxt">D</span>
 				<span className="text-[#38b000]">IA</span>
-			</h4>
+			</h4> */}
 
-			{/* <div className="bottom-28 absolute">
-					<Anime
-						translateY={15}
-						duration={1000}
-						direction={"alternate"}
-						loop={true}
-						easing={"easeInOutQuad"}
+			<div className="flex flex-col gap-3 items-center justify-center">
+				<div className="w-[450px]">
+					<img src={ProImg} className="w-full" />
+				</div>
+				<div className="text-center">
+					<h3 className="text-primaryTxt">Hello, I'm</h3>
+					<h1 className="text-primaryTxt text-5xl my-2">Pushkar Jadhav</h1>
+					<h3 className="text-primaryTxt text-2xl opacity-70 my-2">
+						A Fullstack Developer
+					</h3>
+					<h3 className="text-primaryTxt">
+						<div className="opacity-50 inline">Based in </div>
+						<div className="opacity-100 inline">
+							<span className="text-[#f77f00]">IN</span>
+							<span className="text-primaryTxt">D</span>
+							<span className="text-[#38b000]">IA</span>
+						</div>
+					</h3>
+				</div>
+				<div className="flex gap-3 justify-center">
+					<a
+						href="/"
+						className="text-primaryTxt text-sm border-2 border-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] mt-2"
 					>
-						<a href="">
-							<CaretDownFill size={18} color="#f1faee" />
-						</a>{" "}
-					</Anime>
-				</div> */}
+						Download CV
+					</a>
+					<a
+						href="/"
+						className="text-[#212121] text-sm border-2 border-[#f1faee] bg-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-primaryBg hover:text-primaryTxt mt-2"
+					>
+						Know More
+					</a>
+				</div>
+			</div>
 
-			{/* <div className="absolute right-64 bottom-36 w-1/4">
-					<h1 className="font-[poppins] text-5xl text-primaryTxt font-semibold my-3">
-						Pushkar Jadhav
-					</h1>
-					<h4 className="text-primaryTxt">
-						<em>
-							"a Programmer by Profession, a Hacker by Choice, and a Blogger by
-							Interest."
-						</em>
-					</h4>
-				</div> */}
+			<div className="bottom-28 absolute">
+				<Anime
+					translateY={15}
+					duration={1000}
+					direction={"alternate"}
+					loop={true}
+					easing={"easeInOutQuad"}
+				>
+					<a href="">
+						<CaretDownFill size={18} color="#f1faee" />
+					</a>{" "}
+				</Anime>
+			</div>
 
 			<div className="absolute top-1/4 -left-10 -rotate-90">
 				<h4 className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt">

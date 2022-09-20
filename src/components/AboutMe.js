@@ -13,8 +13,8 @@ const AboutMe = () => {
 		>
 			{/* <div className="h-64 w-64 bg-[#555]"></div> */}
 			<div className="w-[35%] flex flex-col gap-5">
-				<h1 className="text-primaryTxt font-[kontanter] text-7xl text-center mb-10">
-					ABOUT ME
+				<h1 className="text-primaryTxt text-7xl font-medium text-center mb-10">
+					About Me
 				</h1>
 				<div className="flex justify-between mb-10">
 					<div className="w-[13rem] h-[13rem] bg-secondaryBg rounded-3xl flex flex-col items-center justify-between p-5">
