@@ -13,11 +13,12 @@ import Typewriter from "typewriter-effect";
 import ProImg from "../assests/DSC_021.png";
 import Anime from "react-anime";
 
-const Home = () => {
+const Home = ({ refs }) => {
 	return (
 		<div
 			id="home"
 			className="flex flex-col items-center h-screen relative w-full"
+			ref={refs}
 		>
 			<TerminalBlock
 				width="325px"
@@ -49,12 +50,12 @@ const Home = () => {
 					<h3 className="text-primaryTxt text-xl opacity-70">
 						A Fullstack Developer
 					</h3>
-					<h3 className="text-primaryTxt text-sm mb-2">
-						<div className="opacity-50 inline">Based in </div>
-						<div className="opacity-100 inline">
-							<span className="text-[#f77f00]">IN</span>
-							<span className="text-primaryTxt">D</span>
-							<span className="text-[#38b000]">IA</span>
+					<h3 className="text-primaryTxt text-sm mb-2 flex items-center justify-center my-1">
+						<div className="opacity-50 inline-block">Based in India</div>
+						<div className="opacity-100 inline-block mx-2">
+							<div className="bg-[#f77f00] w-5 h-1"></div>
+							<div className="bg-primaryTxt w-5 h-1"></div>
+							<div className="bg-[#38b000] w-5 h-1"></div>
 						</div>
 					</h3>
 				</div>
@@ -66,7 +67,7 @@ const Home = () => {
 						Download CV
 					</a>
 					<a
-						href="/"
+						href="#aboutme"
 						className="text-[#212121] text-sm border-2 border-[#f1faee] bg-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-primaryBg hover:text-primaryTxt mt-2"
 					>
 						Know More

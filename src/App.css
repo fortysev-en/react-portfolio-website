@@ -39,4 +39,10 @@
     .fixedNav a:hover > svg {
         stroke: #1d3557;
     }
+    .active {
+        background-color: #f1faee;
+    }
+    .active-svg svg {
+        stroke: #1d3557;
+    }
   }

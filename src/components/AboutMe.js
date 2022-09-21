@@ -5,11 +5,12 @@ import Anime, { anime } from "react-anime";
 import { Award, Folder, Users } from "react-feather";
 import aboutme from "../assests/aboutme.svg";
 
-const AboutMe = () => {
+const AboutMe = ({ refs }) => {
 	return (
 		<div
 			id="aboutme"
-			className="flex flex-row items-center justify-around mt-[2.5in] py-5"
+			className="flex flex-row items-center justify-around mt-[2.5in] py-5 snap-center"
+			ref={refs}
 		>
 			{/* <div className="h-64 w-64 bg-[#555]"></div> */}
 			<div className="w-[35%] flex flex-col gap-5">

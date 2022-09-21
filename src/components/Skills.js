@@ -10,11 +10,12 @@ import {
 import Anime, { anime } from "react-anime";
 import SkillItem from "./helpers/SkillItem";
 
-const Skills = () => {
+const Skills = ({ refs }) => {
 	return (
 		<div
 			id="skills"
 			className="flex flex-col items-center mt-[2.5in] h-screen py-5"
+			ref={refs}
 		>
 			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
 				Skills

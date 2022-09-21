@@ -4,9 +4,13 @@ import React from "react";
 import Anime, { anime } from "react-anime";
 import PortfolioItem from "./helpers/PortfolioItem";
 
-const Portfolio = () => {
+const Portfolio = ({ refs }) => {
 	return (
-		<div id="portfolio" className="flex flex-col w-full h-screen py-5">
+		<div
+			id="portfolio"
+			className="flex flex-col w-full h-screen py-5"
+			ref={refs}
+		>
 			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
 				Portfolio
 			</h1>

@@ -6,11 +6,12 @@ import timelineOne from "../assests/timelineOne.svg";
 import timelineTwo from "../assests/timelineTwo.svg";
 import timelineThree from "../assests/timelineThree.svg";
 
-const Timeline = () => {
+const Timeline = ({ refs }) => {
 	return (
 		<div
 			id="timeline"
 			className="relative flex flex-col items-center w-full py-5 mt-[2.5in]"
+			ref={refs}
 		>
 			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
 				Timeline
