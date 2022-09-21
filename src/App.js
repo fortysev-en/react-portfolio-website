@@ -1,7 +1,7 @@
 /** @format */
 
 import "./App.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import Anime, { anime } from "react-anime";
 import StickyNav from "./components/helpers/StickyNav";

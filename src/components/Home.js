@@ -38,18 +38,6 @@ const Home = () => {
 				x={500}
 				y={120}
 			/>
-			{/* <h4 className="font-[kontanter] text-2xl text-[#777]">
-				Hi! I'M <span className="text-primaryTxt text-4xl mx-1">PUSHKAR</span>,
-				A
-			</h4>
-			<h1 className="font-[kontanter] text-6xl text-primaryTxt my-3">
-				FULLSTACK DEVELOPER
-			</h1>
-			<h4 className="font-[kontanter] text-2xl text-[#777]">
-				BASED IN <span className="text-[#f77f00]">IN</span>
-				<span className="text-primaryTxt">D</span>
-				<span className="text-[#38b000]">IA</span>
-			</h4> */}
 
 			<div className="flex flex-col gap-3 items-center justify-center">
 				<div className="w-[450px]">
@@ -58,10 +46,10 @@ const Home = () => {
 				<div className="text-center">
 					<h3 className="text-primaryTxt">Hello, I'm</h3>
 					<h1 className="text-primaryTxt text-5xl my-2">Pushkar Jadhav</h1>
-					<h3 className="text-primaryTxt text-2xl opacity-70 my-2">
+					<h3 className="text-primaryTxt text-xl opacity-70">
 						A Fullstack Developer
 					</h3>
-					<h3 className="text-primaryTxt">
+					<h3 className="text-primaryTxt text-sm mb-2">
 						<div className="opacity-50 inline">Based in </div>
 						<div className="opacity-100 inline">
 							<span className="text-[#f77f00]">IN</span>
@@ -94,7 +82,7 @@ const Home = () => {
 					loop={true}
 					easing={"easeInOutQuad"}
 				>
-					<a href="">
+					<a href="#aboutme">
 						<CaretDownFill size={18} color="#f1faee" />
 					</a>{" "}
 				</Anime>
