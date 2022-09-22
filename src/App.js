@@ -11,6 +11,7 @@ import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
 	const HomeRef = useRef();
@@ -43,6 +44,7 @@ export default function App() {
 			<Portfolio refs={PortfolioRef} />
 			<Timeline refs={TimelineRef} />
 			<Contact refs={ContactRef} />
+			<Footer />
 		</section>
 	);
 }
