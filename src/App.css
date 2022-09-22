@@ -45,4 +45,7 @@
     .active-svg svg {
         stroke: #1d3557;
     }
+    .subscribe:hover > .subscribeIcon svg {
+        stroke: #1d3557;
+    }
   }
