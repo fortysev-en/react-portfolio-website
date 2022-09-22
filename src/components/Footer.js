@@ -1,8 +1,7 @@
 /** @format */
 
 import React from "react";
-import { ArrowRight, ArrowRightCircle } from "react-bootstrap-icons";
-import footerLogo from "../assests/footerLogo.svg";
+import { ArrowRight } from "react-bootstrap-icons";
 import navLogoTxtLight from "../assests/navLogoTxtLight.svg";
 
 const Footer = () => {
