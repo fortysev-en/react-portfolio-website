@@ -7,13 +7,13 @@ import navLogoTxtLight from "../assests/navLogoTxtLight.svg";
 const Footer = () => {
 	return (
 		<footer className="w-full mt-[2.5in]">
-			<div className="flex justify-between gap-10">
-				<div className="w-full rounded-3xl h-[300px] flex justify-between py-12 px-32 items-center bg-secondaryBg">
+			<div className="flex justify-between gap-10 flex-col md:flex-row">
+				<div className="w-full rounded-3xl h-[400px] md:h-[300px] flex flex-col md:flex-row justify-between py-12 px-20 md:px-32 items-center bg-secondaryBg">
 					<div className="w-[200px]">
 						<img src={navLogoTxtLight} alt="FOOTER LOGO" />
 					</div>
-					<div className="flex w-1/2 gap-32 h-full justify-end">
-						<div className="flex flex-col justify-between h-full">
+					<div className="flex md:w-1/2 w-full gap-32 h-full justify-end ">
+						<div className="flex flex-col justify-around md:justify-between h-full mt-10 md:mt-0">
 							<h1 className="text-primaryTxt opacity-80 text-sm">CONNECT</h1>
 							<ul className="">
 								<a href="">
@@ -38,7 +38,7 @@ const Footer = () => {
 								</a>
 							</ul>
 						</div>
-						<div className="flex flex-col justify-between h-full">
+						<div className="flex flex-col justify-around mt-10 md:mt-0 md:justify-between h-full">
 							<h1 className="text-primaryTxt opacity-80 text-sm">EXPLORE</h1>
 							<ul className="">
 								<a href="">
@@ -65,13 +65,22 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col justify-between w-1/2 border-2 border-[#353535] rounded-3xl h-[300px] py-12 px-10">
+				<div className="flex flex-col justify-between md:w-1/2 border-2 border-[#353535] rounded-3xl h-[300px] py-12 px-10">
 					<div>
 						<h1 className="text-primaryTxt">Latest News</h1>
 						<p className="text-primaryTxt opacity-50 text-sm font-light my-2">
 							Chuck your email address in here to stay up to date with all the
 							cool blogs and tools, directly into your inbox!
 						</p>
+						<p className="inline text-primaryTxt opacity-50 text-sm font-light my-4">
+							For more direct information,{" "}
+						</p>
+						<a
+							href="/"
+							className="inline text-sm transition duration-300 text-primaryTxt ease-in-out hover:opacity-50"
+						>
+							click here!
+						</a>
 					</div>
 					<form className="relative w-full">
 						<input
@@ -86,13 +95,13 @@ const Footer = () => {
 					</form>
 				</div>
 			</div>
-			<div className="float-right my-14">
-				<h1 className="text-primaryTxt text-xs font-light opacity-50">
+			<div className="md:float-right my-14">
+				<h1 className="text-primaryTxt text-xs text-center font-light opacity-50">
 					Copyright {new Date().getFullYear()} © Pushkar Jadhav, All Rights
 					Reserved.
 				</h1>
-				<span className="text-primaryTxt text-xs font-light float-right my-1">
-					&#8212; Designed and Developed by Pushkar Jadhav
+				<span className="text-primaryTxt text-xs font-light block text-center md:float-right my-1">
+					&#8212; designed and developed by Pushkar Jadhav
 				</span>
 			</div>
 		</footer>
