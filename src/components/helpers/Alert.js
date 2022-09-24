@@ -11,7 +11,7 @@ const Alert = ({ alert, setAlert, duration, message }) => {
 		}, duration);
 	}, [alert]);
 	return (
-		<div className="fixed right-2 bottom-2">
+		<div className="fixed right-2 bottom-2 z-50">
 			<Anime
 				// keyframes={[{ translateY: [100, 0] }, { translateY: [0, 100] }]}
 				translateY={[100, 0]}
