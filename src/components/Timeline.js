@@ -16,7 +16,7 @@ const Timeline = ({ refs }) => {
 			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
 				Timeline
 			</h1>
-			<div className="flex gap-5 absolute right-20 top-40">
+			<div className="flex gap-3 xl:gap-5 absolute xl:right-20 top-40">
 				<div className="flex items-center gap-2">
 					<div className="h-3 w-3 bg-[#06d6a0] rounded-full"></div>
 					<span className="font-['Share_Tech_Mono'] text-[16px] text-primaryTxt">
@@ -36,13 +36,13 @@ const Timeline = ({ refs }) => {
 					</span>
 				</div>
 			</div>
-			<div className="flex justify-between flex-col w-[70%]">
+			<div className="flex justify-between flex-col w-full xl:w-[70%] mt-20">
 				{/* article start*/}
 				<div className="flex items-center gap-40 border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
-					<div className="absolute bg-primaryBg border-[#06d6a0] border-4 rounded-full w-14 h-14 flex items-center justify-center -top-[10px] -left-[30px]">
+					<div className="z-50 absolute bg-primaryBg border-[#06d6a0] border-4 rounded-full w-14 h-14 flex items-center justify-center -top-[10px] -left-[30px]">
 						<h4 className="text-primaryTxt">9</h4>
 					</div>
-					<div className="px-16 py-10 w-[45%]">
+					<div className="py-10 xl:px-16 xl:w-[45%]">
 						<TimelineItem
 							type="employment"
 							duration={"2020 - Present"}
@@ -57,7 +57,7 @@ const Timeline = ({ refs }) => {
 							]}
 						/>
 
-						<div className="absolute bg-primaryBg border-[#06d6a0] bottom-[36%] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
+						<div className="z-50 absolute bg-primaryBg border-[#06d6a0] bottom-[36%] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
 							<h4 className="text-primaryTxt">8</h4>
 						</div>
 						<div className="mt-20">
@@ -75,7 +75,7 @@ const Timeline = ({ refs }) => {
 						</div>
 					</div>
 					<div className="w-[100px] h-[100px] bg-primaryBg absolute -right-[50px] -bottom-[50px]"></div>
-					<div className="w-[500px]">
+					<div className="hidden xl:block w-[500px]">
 						<img src={timelineTwo} alt="Timeline Img" />
 					</div>
 				</div>
@@ -83,16 +83,16 @@ const Timeline = ({ refs }) => {
 
 				{/* article start*/}
 				<div className="flex gap-40 items-center justify-end border-r-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
-					<div className="w-[500px]">
+					<div className="hidden xl:block w-[500px]">
 						<img src={timelineOne} alt="Timeline Img" />
 					</div>
-					<div className="absolute border-t-4 border-r-4 rounded-tr-3xl w-[100px] h-[100px] -right-[4px] -top-[4px] border-[#06d6a0]"></div>
-					<div className="absolute bg-primaryBg border-[#06d6a0] top-[10%] border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] top-56">
+					<div className="z-50 absolute border-t-4 border-r-4 rounded-tr-3xl w-[100px] h-[100px] -right-[4px] -top-[4px] border-[#06d6a0]"></div>
+					<div className="z-50 absolute bg-primaryBg border-[#06d6a0] top-[10%] border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] top-56">
 						<h4 className="text-primaryTxt">7</h4>
 					</div>
 					<div className="absolute w-[100px] h-[100px] bg-primaryBg -bottom-[50px] left-0"></div>
 
-					<div className="px-14 py-10 w-[45%] float-right">
+					<div className="xl:px-14 py-10 xl:w-[45%] float-right">
 						<TimelineItem
 							type="employment"
 							duration={"2017 - 2020"}
@@ -106,7 +106,7 @@ const Timeline = ({ refs }) => {
 							]}
 						/>
 
-						<div className="absolute bg-primaryBg border-[#06d6a0] bottom-[25%] border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] bottom-24">
+						<div className="z-50 absolute bg-primaryBg border-[#06d6a0] bottom-[25%] border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] bottom-24">
 							<h4 className="text-primaryTxt">6</h4>
 						</div>
 						<div className="mt-20">
@@ -126,11 +126,11 @@ const Timeline = ({ refs }) => {
 				{/* article end */}
 				{/* article start*/}
 				<div className="flex gap-40 items-center border-l-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
-					<div className="absolute border-t-4 border-l-4 rounded-tl-3xl w-[100px] h-[100px] -left-[4px] -top-[4px] border-[#06d6a0]"></div>
-					<div className="absolute bg-primaryBg border-[#06d6a0] border-4 top-[10%] rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
+					<div className="z-50 absolute border-t-4 border-l-4 rounded-tl-3xl w-[100px] h-[100px] -left-[4px] -top-[4px] border-[#06d6a0]"></div>
+					<div className="z-50 absolute bg-primaryBg border-[#06d6a0] border-4 top-[10%] rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
 						<h4 className="text-primaryTxt">5</h4>
 					</div>
-					<div className="px-14 py-10 w-[45%]">
+					<div className="xl:px-14 py-10 xl:w-[45%]">
 						<TimelineItem
 							type="education"
 							duration={"2013 - 2017"}
@@ -140,7 +140,7 @@ const Timeline = ({ refs }) => {
 							}
 						/>
 
-						<div className="absolute bg-primaryBg border-[#06d6a0] top-[30%] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
+						<div className="z-50 absolute bg-primaryBg border-[#06d6a0] top-[30%] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
 							<h4 className="text-primaryTxt">4</h4>
 						</div>
 
@@ -159,9 +159,10 @@ const Timeline = ({ refs }) => {
 							/>
 						</div>
 
-						<div className="absolute bg-primaryBg border-[#06d6a0] border-4 bottom-[32%] rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
+						<div className="z-50 absolute bg-primaryBg border-[#06d6a0] border-4 bottom-[32%] rounded-full w-14 h-14 flex items-center justify-center -left-[30px]">
 							<h4 className="text-primaryTxt">3</h4>
 						</div>
+						<div className="w-[100px] h-[100px] bg-primaryBg absolute -right-[50px] -bottom-[50px]"></div>
 						<div className="mt-20">
 							<TimelineItem
 								type="freelance"
@@ -177,20 +178,19 @@ const Timeline = ({ refs }) => {
 							/>
 						</div>
 					</div>
-					<div className="w-[100px] h-[100px] bg-primaryBg absolute -right-[50px] -bottom-[50px]"></div>
-					<div className="w-[500px]">
+					<div className="hidden xl:block w-[500px]">
 						<img src={timelineThree} alt="Timeline Img" />
 					</div>
 				</div>
 				{/* article end */}
 				{/* article start*/}
 				<div className="border-r-4 border-b-4 border-[#06d6a0] rounded-3xl w-[98%] relative">
-					<div className="absolute border-t-4 border-r-4 rounded-tr-3xl w-[100px] h-[100px] -right-[4px] -top-[4px] border-[#06d6a0]"></div>
-					<div className="absolute bg-primaryBg border-[#06d6a0] top-1/3 border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] top-56">
+					<div className="absolute w-[100px] h-[100px] bg-primaryBg -bottom-[50px] left-0"></div>
+					<div className="z-50 absolute border-t-4 border-r-4 rounded-tr-3xl w-[100px] h-[100px] -right-[4px] -top-[4px] border-[#06d6a0]"></div>
+					<div className="z-50 absolute bg-primaryBg border-[#06d6a0] top-1/3 border-4 rounded-full w-14 h-14 flex items-center justify-center -right-[30px] top-56">
 						<h4 className="text-primaryTxt">2</h4>
 					</div>
-					<div className="absolute w-[100px] h-[100px] bg-primaryBg -bottom-[50px] left-0"></div>
-					<div className="px-14 py-10 w-[45%] float-right">
+					<div className="xl:px-14 py-10 xl:w-[45%] float-right">
 						<TimelineItem
 							type="education"
 							duration="2011 - 2013"
@@ -203,11 +203,11 @@ const Timeline = ({ refs }) => {
 
 				{/* article start*/}
 				<div className="border-l-4 border-[#06d6a0] rounded-tl-3xl w-[98%] relative">
-					<div className="absolute border-t-4 border-l-4 rounded-tl-3xl w-[100px] h-[100px] -left-[4px] -top-[4px] border-[#06d6a0]"></div>
-					<div className="absolute bg-primaryBg border-[#06d6a0] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px] bottom-0">
+					<div className="z-50 absolute border-t-4 border-l-4 rounded-tl-3xl w-[100px] h-[100px] -left-[4px] -top-[4px] border-[#06d6a0]"></div>
+					<div className="z-50 absolute bg-primaryBg border-[#06d6a0] border-4 rounded-full w-14 h-14 flex items-center justify-center -left-[30px] bottom-0">
 						<h4 className="text-primaryTxt">1</h4>
 					</div>
-					<div className="px-14 py-10 w-[45%]">
+					<div className="xl:px-14 py-10 xl:w-[45%]">
 						<TimelineItem
 							type="education"
 							duration="2010 - 2011"

@@ -13,7 +13,7 @@ const TimelineItem = (props) => {
 			easing={"linear"}
 			duration={anime.random(1000, 3000)}
 		>
-			<div className="bg-secondaryBg p-12 rounded-3xl">
+			<div className="bg-secondaryBg p-12 rounded-3xl w-[90%] xl:w-full">
 				<span className="text-secondaryTxt opacity-50 text-sm">
 					{props.duration}
 				</span>

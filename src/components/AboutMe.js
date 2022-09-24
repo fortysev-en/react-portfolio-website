@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Anime, { anime } from "react-anime";
 import { Award, Folder, Users } from "react-feather";
 import aboutme from "../assests/aboutme.svg";
@@ -9,14 +9,14 @@ const AboutMe = ({ refs }) => {
 	return (
 		<div
 			id="aboutme"
-			className="flex flex-col md:flex-row items-center justify-around mt-[2.5in] py-5 snap-center"
+			className="flex flex-col xl:flex-row items-center justify-around mt-[2.5in] py-5"
 			ref={refs}
 		>
-			<div className="md:w-[35%] flex flex-col gap-5">
-				<h1 className="text-primaryTxt text-5xl	md:text-7xl font-medium text-center mb-10">
+			<div className="xl:w-[35%] flex flex-col gap-5">
+				<h1 className="text-primaryTxt text-5xl	xl:text-7xl font-medium text-center mb-10">
 					About Me
 				</h1>
-				<div className="flex flex-col md:flex-row md:justify-between justify-center items-center mb-10">
+				<div className="flex flex-col xl:flex-row xl:justify-between justify-center items-center mb-10">
 					<div className="w-[13rem] h-[13rem] bg-secondaryBg rounded-3xl flex flex-col items-center justify-between p-5 m-2">
 						<h3 className="text-primaryTxt">EXPERIENCE</h3>
 						<Anime
@@ -100,7 +100,7 @@ const AboutMe = ({ refs }) => {
 					</a>
 				</div>
 			</div>
-			<div className="md:w-[500px] w-full">
+			<div className="xl:w-[500px]">
 				<img src={aboutme} alt="About Pushkar" />
 			</div>
 		</div>

@@ -13,8 +13,8 @@ const Stats = ({ refs, github, wakatime }) => {
 				Stats
 			</h1>
 
-			<div className="w-full p-10 flex flex-col md:flex-row items-center justify-around rounded-3xl bg-secondaryBg">
-				<h1 className="text-secondaryTxt mb-4 text-2xl md:text-5xl font-bold">
+			<div className="w-full p-10 flex flex-col xl:flex-row items-center justify-around rounded-3xl bg-secondaryBg">
+				<h1 className="text-secondaryTxt mb-4 text-2xl xl:text-5xl font-bold">
 					GITHUB STATS
 				</h1>
 				<a href={`https://github.com/${github}`}>
@@ -25,8 +25,8 @@ const Stats = ({ refs, github, wakatime }) => {
 				</a>
 			</div>
 
-			<div className="w-full p-10 flex flex-col md:flex-row md:flex-row-reverse items-center justify-around rounded-3xl bg-secondaryBg">
-				<h1 className="text-secondaryTxt mb-4 text-2xl text-center md:text-5xl font-bold">
+			<div className="w-full p-10 flex flex-col xl:flex-row xl:flex-row-reverse items-center justify-around rounded-3xl bg-secondaryBg">
+				<h1 className="text-secondaryTxt mb-4 text-2xl text-center xl:text-5xl font-bold">
 					WAKATIME WEEKLY STATS
 				</h1>
 				<a href={`https://wakatime.com/@${wakatime}`}>

@@ -40,13 +40,13 @@ const Home = ({ refs }) => {
 				y={120}
 			/>
 
-			<div className="flex flex-col gap-3 items-center justify-center mt-24 md:mt-0">
-				<div className="w-[350px] md:w-[450px]">
+			<div className="flex flex-col gap-3 items-center justify-center mt-24 xl:mt-0">
+				<div className="w-[350px] xl:w-[450px]">
 					<img src={ProImg} className="w-full" />
 				</div>
 				<div className="text-center">
 					<h3 className="text-primaryTxt">Hello, I'm</h3>
-					<h1 className="text-primaryTxt text-3xl md:text-5xl my-2">
+					<h1 className="text-primaryTxt text-3xl xl:text-5xl my-2">
 						Pushkar Jadhav
 					</h1>
 					<h3 className="text-primaryTxt text-md opacity-70">
@@ -91,13 +91,13 @@ const Home = ({ refs }) => {
 				</Anime>
 			</div>
 
-			<div className="absolute top-1/4 -left-20 md:-left-10 -rotate-90">
+			<div className="absolute top-1/4 -left-20 xl:-left-10 -rotate-90">
 				<h4 className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt">
 					<a href="tel:+91 88055 66621">+91 88055 66621</a>
 				</h4>
 			</div>
 
-			<div className="absolute bottom-1/3 -left-[125px] md:-left-[90px] -rotate-90">
+			<div className="absolute bottom-1/3 -left-[125px] xl:-left-[90px] -rotate-90">
 				<h4 className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt">
 					<a href="mailto:pushkar.jadhao@gmail.com">
 						pushkar@thefortyseven.dev
@@ -105,7 +105,7 @@ const Home = ({ refs }) => {
 				</h4>
 			</div>
 
-			<div className="absolute -right-10 md:right-5 top-10 rotate-90">
+			<div className="absolute -right-10 xl:right-5 top-10 rotate-90">
 				<h4
 					className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt"
 					title="Total Views"
@@ -114,7 +114,7 @@ const Home = ({ refs }) => {
 				</h4>
 			</div>
 
-			<div className="absolute -right-5 md:right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
+			<div className="absolute -right-5 xl:right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
 				<a
 					href=""
 					className="transition duration-300 ease-in-out hover:opacity-60"

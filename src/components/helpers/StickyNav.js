@@ -2,7 +2,15 @@
 
 import React, { useEffect, useState } from "react";
 import { anime } from "react-anime";
-import { Briefcase, Home, Mail, User, Settings, Calendar } from "react-feather";
+import {
+	Briefcase,
+	Home,
+	Mail,
+	User,
+	Settings,
+	Calendar,
+	Clock,
+} from "react-feather";
 
 const StickyNav = ({ offsets }) => {
 	const [activeNav, setActiveNav] = useState("home");
@@ -38,8 +46,10 @@ const StickyNav = ({ offsets }) => {
 				setActiveNav("aboutme");
 			} else if (posY >= offsets.skills && posY < offsets.portfolio) {
 				setActiveNav("skills");
-			} else if (posY >= offsets.portfolio && posY < offsets.timeline) {
+			} else if (posY >= offsets.portfolio && posY < offsets.stats) {
 				setActiveNav("portfolio");
+			} else if (posY >= offsets.stats && posY < offsets.timeline) {
+				setActiveNav("stats");
 			} else if (posY >= offsets.timeline && posY < offsets.contact) {
 				setActiveNav("timeline");
 			} else if (posY >= offsets.contact) {
@@ -94,6 +104,17 @@ const StickyNav = ({ offsets }) => {
 				onClick={() => setActiveNav("portfolio")}
 			>
 				<Briefcase color="#f1faee" size={22} />
+			</a>
+			<a
+				href="#stats"
+				className={
+					activeNav === "stats"
+						? "p-2 rounded-xl active active-svg"
+						: "p-2 rounded-xl transition duration-300 ease-in-out hover:bg-[#f1faee]"
+				}
+				onClick={() => setActiveNav("stats")}
+			>
+				<Clock color="#f1faee" size={22} />
 			</a>
 			<a
 				href="#timeline"
