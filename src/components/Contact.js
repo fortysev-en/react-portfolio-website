@@ -2,16 +2,29 @@
 
 import React, { useState } from "react";
 import ContactItem from "../components/helpers/ContactItem";
+import { setDoc, doc, collection } from "firebase/firestore";
+import { db } from "./helpers/Firebase";
 import Alert from "./helpers/Alert";
 
 const Contact = ({ refs }) => {
+	const [email, setEmail] = useState("");
+	const [name, setName] = useState("");
+	const [msg, setMsg] = useState("");
+
 	const [alert, setAlert] = useState(false);
-	const handleSubmit = (e) => {
+
+	const handleSubmit = async (e) => {
 		e.preventDefault();
+		setEmail("");
+		setName("");
+		setMsg("");
 		setAlert(true);
-		setTimeout(() => {
-			setAlert(false);
-		}, 3000);
+		const docRef = doc(collection(db, "portfolioContact"));
+		await setDoc(docRef, {
+			name: e.target.name.value,
+			email: e.target.email.value,
+			message: e.target.message.value,
+		});
 	};
 
 	return (
@@ -35,12 +48,18 @@ const Contact = ({ refs }) => {
 							name="name"
 							type="text"
 							placeholder="Name"
+							value={name}
+							onChange={(e) => setName(e.target.value)}
+							required
 						/>
 						<input
 							className="bg-secondaryBg w-full p-2 rounded-xl text-primaryTxt placeholder:text-sm outline-none"
 							name="email"
 							type="email"
 							placeholder="Email Address"
+							value={email}
+							onChange={(e) => setEmail(e.target.value)}
+							required
 						/>
 					</div>
 					<textarea
@@ -48,17 +67,26 @@ const Contact = ({ refs }) => {
 						name="message"
 						spellCheck={false}
 						placeholder="Add Your Message Here"
+						value={msg}
+						onChange={(e) => setMsg(e.target.value)}
+						required
 					></textarea>
 					<button
 						type="submit"
-						// className="block border-2 text-primaryTxt px-10 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] mt-2 border-[#f1faee]"
 						className="float-right xl:float-left text-[#999] border-2 border-[#666] px-10 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] hover:border-[#f1faee] mt-2"
 					>
 						SEND
 					</button>
 				</form>
 			</div>
-			{alert ? <Alert /> : null}
+			{alert ? (
+				<Alert
+					alert={alert}
+					setAlert={setAlert}
+					duration={3000}
+					message={'Thank you! I"ll soon get in touch!'}
+				/>
+			) : null}
 		</div>
 	);
 };

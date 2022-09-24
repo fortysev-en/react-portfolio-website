@@ -6,11 +6,7 @@ import PortfolioItem from "./helpers/PortfolioItem";
 
 const Portfolio = ({ refs }) => {
 	return (
-		<div
-			id="portfolio"
-			className="flex flex-col w-full h-screen py-5"
-			ref={refs}
-		>
+		<div id="portfolio" className="flex flex-col w-full py-5" ref={refs}>
 			<h1 className="text-primaryTxt text-7xl font-medium text-center mb-20">
 				Portfolio
 			</h1>
