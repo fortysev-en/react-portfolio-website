@@ -40,17 +40,19 @@ const Home = ({ refs }) => {
 				y={120}
 			/>
 
-			<div className="flex flex-col gap-3 items-center justify-center">
-				<div className="w-[450px]">
+			<div className="flex flex-col gap-3 items-center justify-center mt-24 md:mt-0">
+				<div className="w-[350px] md:w-[450px]">
 					<img src={ProImg} className="w-full" />
 				</div>
 				<div className="text-center">
 					<h3 className="text-primaryTxt">Hello, I'm</h3>
-					<h1 className="text-primaryTxt text-5xl my-2">Pushkar Jadhav</h1>
-					<h3 className="text-primaryTxt text-xl opacity-70">
+					<h1 className="text-primaryTxt text-3xl md:text-5xl my-2">
+						Pushkar Jadhav
+					</h1>
+					<h3 className="text-primaryTxt text-md opacity-70">
 						A Fullstack Developer
 					</h3>
-					<h3 className="text-primaryTxt text-sm mb-2 flex items-center justify-center my-1">
+					<h3 className="text-primaryTxt text-xs mb-2 flex items-center justify-center my-1">
 						<div className="opacity-50 inline-block">Based in India</div>
 						<div className="opacity-100 inline-block mx-2">
 							<div className="bg-[#f77f00] w-5 h-1"></div>
@@ -59,7 +61,7 @@ const Home = ({ refs }) => {
 						</div>
 					</h3>
 				</div>
-				<div className="flex gap-3 justify-center">
+				<div className="flex gap-3 justify-center mt-10">
 					<a
 						href="/"
 						className="text-primaryTxt text-sm border-2 border-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] mt-2"
@@ -89,13 +91,13 @@ const Home = ({ refs }) => {
 				</Anime>
 			</div>
 
-			<div className="absolute top-1/4 -left-10 -rotate-90">
+			<div className="absolute top-1/4 -left-20 md:-left-10 -rotate-90">
 				<h4 className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt">
 					<a href="tel:+91 88055 66621">+91 88055 66621</a>
 				</h4>
 			</div>
 
-			<div className="absolute bottom-1/3 -left-[90px] -rotate-90">
+			<div className="absolute bottom-1/3 -left-[125px] md:-left-[90px] -rotate-90">
 				<h4 className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt">
 					<a href="mailto:pushkar.jadhao@gmail.com">
 						pushkar@thefortyseven.dev
@@ -103,7 +105,7 @@ const Home = ({ refs }) => {
 				</h4>
 			</div>
 
-			<div className="absolute right-5 top-10 rotate-90">
+			<div className="absolute -right-10 md:right-5 top-10 rotate-90">
 				<h4
 					className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt"
 					title="Total Views"
@@ -112,7 +114,7 @@ const Home = ({ refs }) => {
 				</h4>
 			</div>
 
-			<div className="absolute right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
+			<div className="absolute -right-5 md:right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
 				<a
 					href=""
 					className="transition duration-300 ease-in-out hover:opacity-60"
