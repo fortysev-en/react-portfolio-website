@@ -6,7 +6,7 @@ import { Maximize2 } from "react-feather";
 
 const TerminalBlock = (props) => {
 	return (
-		<h1 className="absolute">
+		<h1 className="hidden md:block md:absolute">
 			<Draggable defaultPosition={{ x: props.x, y: props.y }}>
 				<div className="top-10 right-20 w-[350px] h-[130px] bg-secondaryBg rounded-2xl">
 					<div className="absolute bg-[#343a40] h-6 w-full rounded-t-2xl flex justify-between items-center px-4">
