@@ -36,10 +36,22 @@ const Contact = ({ refs }) => {
 				<div className="flex gap-5 flex-wrap justify-center xl:w-1/3">
 					<ContactItem type="email" />
 					<ContactItem type="phone" />
-					<ContactItem type="linkedin" />
-					<ContactItem type="instagram" />
-					<ContactItem type="discord" />
-					<ContactItem type="facebook" />
+					<ContactItem
+						type="linkedin"
+						link="https://linkedin.com/in/pushkar-jadhav-511505207"
+					/>
+					<ContactItem
+						type="instagram"
+						link="https://www.instagram.com/mr__fortyseven"
+					/>
+					<ContactItem
+						type="discord"
+						link="https://discord.com/users/fortyseven#1540"
+					/>
+					<ContactItem
+						type="facebook"
+						link="https://www.facebook.com/pushkaraj.jadhao"
+					/>
 				</div>
 				<form onSubmit={handleSubmit} className="xl:w-1/3">
 					<div className="flex gap-4">
