@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
 	CodeSquare,
 	Terminal,
@@ -11,6 +11,14 @@ import Anime, { anime } from "react-anime";
 import SkillItem from "./helpers/SkillItem";
 
 const Skills = ({ refs }) => {
+	const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+	useEffect(() => {
+		document.addEventListener("resize", () => {
+			setWindowSize(window.innerWidth);
+		});
+	}, []);
+
 	return (
 		<div
 			id="skills"
@@ -22,7 +30,9 @@ const Skills = ({ refs }) => {
 			</h1>
 			<div className="w-full flex justify-center">
 				<Anime
-					translateX={anime.stagger(-220)}
+					translateX={
+						windowSize <= 500 ? anime.stagger(-60) : anime.stagger(-220)
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -83,16 +93,20 @@ const Skills = ({ refs }) => {
 						}
 					></SkillItem>
 				</Anime>
-				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[200px] m-2 h-fit">
+				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[110px] lg:w-[200px] m-2 h-fit">
 					<div className="flex flex-col gap-4 items-center justify-center h-10">
 						<div>
 							<CodeSquare size={32} color="#FFF" />
 						</div>
-						<h3 className="text-primaryTxt">FRONTEND</h3>
+						<h3 className="hidden lg:block text-primaryTxt">FRONTEND</h3>
 					</div>
 				</div>
 				<Anime
-					translateX={[-215, anime.stagger(220)]}
+					translateX={
+						windowSize <= 500
+							? [-100, anime.stagger(60)]
+							: [-215, anime.stagger(220)]
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -150,7 +164,9 @@ const Skills = ({ refs }) => {
 			</div>
 			<div className="w-full flex justify-center">
 				<Anime
-					translateX={anime.stagger(-220)}
+					translateX={
+						windowSize <= 500 ? anime.stagger(-60) : anime.stagger(-220)
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -196,16 +212,20 @@ const Skills = ({ refs }) => {
 						}
 					></SkillItem>
 				</Anime>
-				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[200px] m-2 h-fit">
+				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[110px] lg:w-[200px] m-2 h-fit">
 					<div className="flex flex-col gap-4 items-center justify-center h-10">
 						<div>
 							<Terminal size={32} color="#FFF" />
 						</div>
-						<h3 className="text-primaryTxt">BACKEND</h3>
+						<h3 className="text-primaryTxt hidden lg:block">BACKEND</h3>
 					</div>
 				</div>
 				<Anime
-					translateX={[-215, anime.stagger(220)]}
+					translateX={
+						windowSize <= 500
+							? [-100, anime.stagger(60)]
+							: [-215, anime.stagger(220)]
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -297,7 +317,9 @@ const Skills = ({ refs }) => {
 			</div>
 			<div className="w-full flex justify-center">
 				<Anime
-					translateX={anime.stagger(-220)}
+					translateX={
+						windowSize <= 500 ? anime.stagger(-60) : anime.stagger(-220)
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -328,16 +350,20 @@ const Skills = ({ refs }) => {
 						}
 					></SkillItem>
 				</Anime>
-				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[200px] m-2 h-fit">
+				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[110px] lg:w-[200px] m-2 h-fit">
 					<div className="flex flex-col gap-4 items-center justify-center h-10">
 						<div>
 							<BracesAsterisk size={32} color="#FFF" />
 						</div>
-						<h3 className="text-primaryTxt">UX / UI</h3>
+						<h3 className="text-primaryTxt hidden lg:block">UX / UI</h3>
 					</div>
 				</div>
 				<Anime
-					translateX={[-215, anime.stagger(220)]}
+					translateX={
+						windowSize <= 500
+							? [-100, anime.stagger(60)]
+							: [-215, anime.stagger(220)]
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -380,7 +406,9 @@ const Skills = ({ refs }) => {
 			</div>
 			<div className="w-full flex justify-center">
 				<Anime
-					translateX={anime.stagger(-220)}
+					translateX={
+						windowSize <= 500 ? anime.stagger(-60) : anime.stagger(-220)
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
@@ -411,16 +439,20 @@ const Skills = ({ refs }) => {
 						}
 					></SkillItem>
 				</Anime>
-				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[200px] m-2 h-fit">
+				<div className="z-50 bg-secondaryBg border-2 border-[#2B2B2C] rounded-xl px-4 py-10 w-[110px] lg:w-[200px] m-2 h-fit">
 					<div className="flex flex-col gap-4 items-center justify-center h-10">
 						<div>
 							<Clouds size={32} color="#FFF" />
 						</div>
-						<h3 className="text-primaryTxt">CLOUD</h3>
+						<h3 className="text-primaryTxt hidden lg:block">CLOUD</h3>
 					</div>
 				</div>
 				<Anime
-					translateX={[-215, anime.stagger(220)]}
+					translateX={
+						windowSize <= 500
+							? [-100, anime.stagger(60)]
+							: [-215, anime.stagger(220)]
+					}
 					loop={true}
 					duration={2000}
 					delay={1500}
