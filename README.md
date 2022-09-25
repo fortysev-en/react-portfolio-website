@@ -1,2 +1,2 @@
 # react-portfolio-website
-An Aesthetically Pleasing React Portfolio Website
+An Aesthetically Pleasing React + Tailwind + Firebase Portfolio Website
