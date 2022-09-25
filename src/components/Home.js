@@ -13,7 +13,7 @@ import TerminalBlock from "../components/helpers/TerminalBlock";
 import Typewriter from "typewriter-effect";
 import ProImg from "../assests/DSC_021.png";
 import Anime from "react-anime";
-import resume from "../assests/Pushkar_Jadhav_DevSup.pdf";
+import personalcv from "../assests/personalcv.pdf";
 import BackgroundPulse from "./helpers/BackgroundPulse";
 
 const Home = ({ refs }) => {
@@ -69,7 +69,7 @@ const Home = ({ refs }) => {
 				</div>
 				<div className="flex gap-3 justify-center mt-10">
 					<a
-						href={resume}
+						href={personalcv}
 						className="text-primaryTxt text-sm border-2 border-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] mt-2"
 						target="_blank"
 					>
@@ -94,7 +94,7 @@ const Home = ({ refs }) => {
 				>
 					<a href="#aboutme">
 						<CaretDownFill size={18} color="#f1faee" />
-					</a>{" "}
+					</a>
 				</Anime>
 			</div>
 
