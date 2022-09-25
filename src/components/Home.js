@@ -67,7 +67,7 @@ const Home = ({ refs }) => {
 						</div>
 					</h3>
 				</div>
-				<div className="flex gap-3 justify-center mt-10">
+				<div className="flex gap-3 justify-center">
 					<a
 						href={personalcv}
 						className="text-primaryTxt text-sm border-2 border-[#f1faee] w-fit px-5 py-2 rounded-2xl transition ease-in-out duration-300 hover:bg-[#f1faee] hover:text-[#212121] mt-2"
@@ -112,14 +112,14 @@ const Home = ({ refs }) => {
 				</h4>
 			</div>
 
-			<div className="absolute -right-10 xl:right-5 top-10 rotate-90">
+			{/* <div className="absolute -right-10 xl:right-5 top-10 rotate-90">
 				<h4
 					className="font-['Share_Tech_Mono'] text-[18px] text-primaryTxt"
 					title="Total Views"
 				>
 					105320
 				</h4>
-			</div>
+			</div> */}
 
 			<div className="absolute -right-5 xl:right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
 				<a

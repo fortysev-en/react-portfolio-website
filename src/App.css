@@ -3,8 +3,7 @@
 @tailwind utilities;
 @import url('http://fonts.cdnfonts.com/css/kontanter');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-@import url('http://fonts.cdnfonts.com/css/share-tech-mono');
-@import url('http://fonts.cdnfonts.com/css/anurati');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 @layer base {
     html {
