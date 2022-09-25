@@ -24,7 +24,7 @@ const PortfolioItem = (props) => {
 				</h3>
 			</div>
 			<div className="flex flex-col items-center justify-center text-center h-1/3">
-				{/* {hover ? (
+				{hover ? (
 					<Anime translateY={[-80, 0]}>
 						<h1 className="text-primaryTxt text-sm">{props.title}</h1>
 						<p className="text-primaryTxt text-sm opacity-50 mt-2">
@@ -61,7 +61,7 @@ const PortfolioItem = (props) => {
 						className="w-[90px] opacity-70"
 						alt="Portfolio Icon"
 					/>
-				) : null} */}
+				) : null}
 			</div>
 			<a
 				href={props.link}

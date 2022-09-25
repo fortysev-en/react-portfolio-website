@@ -23,7 +23,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"A Public Blogging Website, completely built with DJango and DTL, hosted on AWS and various other technologies."
 						}
-						link="/"
+						link="https://thefortyseven.dev"
 					/>
 					<PortfolioItem
 						heading="WEBSITE"
@@ -33,7 +33,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"Personal Portfolio completely built with DJango and DTL, hosted on AWS and various other technologies."
 						}
-						link="/"
+						link="https://thefortyseven.dev/portfolio"
 					/>
 					<PortfolioItem
 						heading="WEBSITE"
@@ -43,7 +43,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"First Web Development freelance project. A Simple dynamic website, freely hosted on EPIZY on their free sub-domain."
 						}
-						link="/"
+						link="http://yogayogcreations.epizy.com"
 					/>
 					<PortfolioItem
 						heading="WEBSITE"
@@ -53,7 +53,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"First Personal Portfolio, hosted freely on GitHub Pages and backed with Google's Firebase as serverless backend."
 						}
-						link="/"
+						link="https://fortysev-en.github.io/"
 					/>
 					<PortfolioItem
 						heading="WEBSITE"
@@ -63,7 +63,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"First Personal Blogging Website, hosted freely on GitHub Pages and backed with Google's Firebase as serverless backend."
 						}
-						link="/"
+						link="https://fortysev-en.github.io/blogs/fortyseven-homepage-complete-list-of-blogs.html"
 					/>
 					<PortfolioItem
 						heading="ANDROID APP"
@@ -73,7 +73,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"Stock Application Port - Ported all the stock applications of Sony to be compatable for all general Android devices."
 						}
-						link="/"
+						link="https://forum.xda-developers.com/t/apps-ported-mar03-xperia-ported-apps-for-aosp-based-roms.3558430/"
 					/>
 					<PortfolioItem
 						heading="ANDROID ROM"
@@ -83,7 +83,7 @@ const Portfolio = ({ refs }) => {
 						description={
 							"Developed latest (at that period) Android ROM [7.0] exclusively for outdated Sony Experia Acro S with the sources available from Google as an AOSP project."
 						}
-						link="/"
+						link="https://forum.xda-developers.com/t/rom-7-x-nougat-naosp-rom-for-acro-s.3507721/"
 					/>
 				</Anime>
 			</div>

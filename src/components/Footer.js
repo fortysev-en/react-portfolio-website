@@ -32,22 +32,34 @@ const Footer = () => {
 						<div className="flex flex-col justify-around xl:justify-between h-full mt-10 xl:mt-0">
 							<h1 className="text-primaryTxt opacity-80 text-sm">CONNECT</h1>
 							<ul className="">
-								<a href="">
+								<a
+									href="https://linkedin.com/in/pushkar-jadhav-511505207"
+									target="_blank"
+								>
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										LinkedIn
 									</li>
 								</a>
-								<a href="">
+								<a
+									href="https://www.instagram.com/mr__fortyseven"
+									target="_blank"
+								>
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Instagram
 									</li>
 								</a>
-								<a href="">
+								<a
+									href="https://discord.com/users/fortyseven#1540"
+									target="_blank"
+								>
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Discord
 									</li>
 								</a>
-								<a href="">
+								<a
+									href="https://www.facebook.com/pushkaraj.jadhao"
+									target="_blank"
+								>
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Facebook
 									</li>
@@ -57,22 +69,22 @@ const Footer = () => {
 						<div className="flex flex-col justify-around mt-10 xl:mt-0 xl:justify-between h-full">
 							<h1 className="text-primaryTxt opacity-80 text-sm">EXPLORE</h1>
 							<ul className="">
-								<a href="">
+								<a href="#aboutme">
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										About Me
 									</li>
 								</a>
-								<a href="">
+								<a href="#skills">
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Skills
 									</li>
 								</a>
-								<a href="">
+								<a href="#portfolio">
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Portfolio
 									</li>
 								</a>
-								<a href="">
+								<a href="#timeline">
 									<li className="opacity-60 text-primaryTxt text-sm my-3 transition duration-300 ease-in-out hover:opacity-100 font-light">
 										Timeline
 									</li>

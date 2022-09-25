@@ -118,7 +118,7 @@ const Timeline = ({ refs }) => {
 								description={[
 									"First Web Development freelance project. A Simple dynamicwebsite, freely hosted on EPIZY as their sub-domain.",
 								]}
-								link="/"
+								link="http://yogayogcreations.epizy.com"
 							/>
 						</div>
 					</div>
@@ -154,8 +154,8 @@ const Timeline = ({ refs }) => {
 									"ROM Development - Developed latest (at that period) Android ROM [7.0] exclusively for outdated Sony Experia Acro S with the sources available from Google as an AOSP project.",
 									"Stock Application Port - Ported all the stock applications of Sony to be compatable for all general Android devices.",
 								]}
-								link="/"
-								link2="/"
+								link="https://forum.xda-developers.com/t/rom-7-x-nougat-naosp-rom-for-acro-s.3507721/"
+								link2="https://forum.xda-developers.com/t/apps-ported-mar03-xperia-ported-apps-for-aosp-based-roms.3558430/"
 							/>
 						</div>
 
@@ -174,7 +174,7 @@ const Timeline = ({ refs }) => {
 								description={[
 									"Rice production in India is an important part of the national economy. India is the world's 2nd largest producer with approximately 43 Mio Ha planted area, account ing for 22% of the world's rice production. The physiological diseases in rice crops are highly common and can be predicted through the structural abnormalities in the leaves. Our system proposes a solution to predict few of these disease conditions in cluding 'Brown Spot','Hispa','LeafBlast', and a Healthy Rice Crop. The main aim of this proposed system is to optimize identification and monitoring of rice crops us ing technologies like:-image processing, neural networks, forward feedback mechanism. We hope this forms a basis for other systems as well.",
 								]}
-								link="/"
+								link="https://link.springer.com/chapter/10.1007/978-981-15-5679-1_4"
 							/>
 						</div>
 					</div>

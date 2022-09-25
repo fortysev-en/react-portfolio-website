@@ -7,6 +7,7 @@ import {
 	Instagram,
 	Discord,
 	CaretDownFill,
+	Github,
 } from "react-bootstrap-icons";
 import TerminalBlock from "../components/helpers/TerminalBlock";
 import Typewriter from "typewriter-effect";
@@ -122,26 +123,37 @@ const Home = ({ refs }) => {
 
 			<div className="absolute -right-5 xl:right-10 bottom-40 flex flex-col gap-8 items-center justify-center">
 				<a
-					href=""
+					href="https://linkedin.com/in/pushkar-jadhav-511505207"
 					className="transition duration-300 ease-in-out hover:opacity-60"
+					target="_blank"
 				>
 					<Linkedin size={18} color="#f1faee" />
 				</a>
 				<a
-					href=""
+					href="https://github.com/fortysev-en"
 					className="transition duration-300 ease-in-out hover:opacity-60"
+					target="_blank"
+				>
+					<Github size={20} color="#f1faee" />
+				</a>
+				<a
+					href="https://www.instagram.com/mr__fortyseven"
+					className="transition duration-300 ease-in-out hover:opacity-60"
+					target="_blank"
 				>
 					<Instagram size={18} color="#f1faee" />
 				</a>
 				<a
-					href=""
+					href="https://discord.com/users/fortyseven#1540"
 					className="transition duration-300 ease-in-out hover:opacity-60"
+					target="_blank"
 				>
 					<Discord size={18} color="#f1faee" />
 				</a>
 				<a
-					href=""
+					href="https://www.facebook.com/pushkaraj.jadhao"
 					className="transition duration-300 ease-in-out hover:opacity-60"
+					target="_blank"
 				>
 					<Facebook size={18} color="#f1faee" />
 				</a>
